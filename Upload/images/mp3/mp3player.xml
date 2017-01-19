@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<player showDisplay="yes" showPlaylist="yes" autoStart="yes">
+<song path="http://blog.56swun.com/file.php?id=567" title="宠物女生" />
+<song path="http://blog.56swun.com/file.php?id=1034" title="蜗牛快跑" />
+</player>

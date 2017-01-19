@@ -1,0 +1,278 @@
+/** Doyouhaobaby.com 
+    bbs.56swun.com
+	版权所有2009-2010
+	小牛哥 QQ:635750556
+	635750556@qq.com
+*/
+/* 基本样式 *\
+\*==========*/
+body {margin:0;padding:0;font-family: "微软雅黑", Arial, sans-serif; text-align: center;line-height:1.3;font-size: 13px;color: #2b2827;}
+a, a:visited {text-decoration: none;color: #004499;}
+a:hover {text-decoration:underline;color:#000;}
+h1 {font-size: 20px;	font-weight: normal;color: #006699;}
+h2 {font-size: 18px;}
+h3 {font-size: 12px; color:#000; padding-bottom:10px;background:#ebf1f8;}
+img {border:none;}
+h1, h2, h3, p {padding: 2px 15px;margin: 0;}
+h3 a { padding:5px 10px;height:40px}
+ul, ol {margin: 5px 20px;padding: 0 20px;}
+code {margin: 5px 0; padding: 10px;text-align: left; display: block;overflow: auto;  font-size:16px; background: #dff0f8;border: 1px solid #f2f2f2; border-left:3px solid #ff6700;}
+table {border-collapse: collapse;margin: 5px;}
+td{ padding:5px 10px;  }
+blockquote  { margin: 1.5em; color: #666; font-style: italic;background:#e6e6e6;padding:8px 10px; border:1px solid #d2d2d2}
+label{ display:block;}
+.float-left  { float: left; }
+.float-right { float: right; }
+.align-left  { text-align: left; }
+.align-right { text-align: right; }
+.clear { clear: both; }
+ul,ol,li{
+list-style-image:none;
+list-style-type:none;
+margin:0;
+padding:0;
+}
+
+/*盒子*/
+.box{padding:10px 0px; height:auto;}
+.box h3 {font-size: 16px; color:#000;background:#def1ff;padding:3px 20px;}
+
+/* 表单样式 *\
+\*==========*/
+
+form {padding: 8px 8px;border: 1px solid #d2e8fa; background-color: #f5fafe;}
+label {display:block;font-weight:bold;margin:5px 0;}
+input {padding:6px;border:2px solid #d9ecfb;background:#fff;}
+input:focus, select:focus, textarea:focus {color: #000;background: #fff;border:2px solid #82CDFF;outline-color:0!important;outline-style:none!important;outline-width:0!important;}
+select{padding:3px;color:#2a6699;}
+textarea {width:450px;padding:2px;border:2px solid #d9ecfb;height:100px;display:block;background: #fff}
+input.button { padding:8px 50px;background:#004499;color:#fff;font-weight:bold;font-size:18px;}
+input.button:hover,input.button:focus{background:#01397e;color:#ccc;}
+/* 搜索表单 *\
+\*==========*/
+.searchform {background-color: transparent;border: none;margin: 0; padding: 5px 0 15px 15px;width: 190px;}
+.searchform p { margin: 0; padding: 0; }
+.searchform input.textbox { width: 120px;height: 20px;padding: 2px;	vertical-align: top;}
+.searchform input.button { width: 60px;height: 24px;padding: 2px 5px;vertical-align: top;}
+
+/* 网站主体 *\
+\*==========*/
+#wrap {width: 960px;background: #fff url(images/contefdnt.jpg) repeat-y center top;margin: 0 auto;text-align: left;}
+#content-wrap {clear: both;width: 960px;padding: 0; margin: 10px auto;}
+/* 头部 *\
+\*=======*/
+.header {width:100%; height:250px; background:#fff url('images/banner_bg.gif');border-bottom:3px solid #256190;}
+#header {width:960px; margin:0 auto;}
+#header #banner{
+   width:960px;
+   height:210px;
+   border-top:2px solid #fff;
+   border-left:8px solid #fff;
+   border-right:8px solid #fff;
+   background:#508ec0 url('images/header_bg.gif');
+}
+#header h1#blogtitle a {position: absolute;margin: 0;padding: 0;font-size:25px;font-weight:bold;color: #033d76;text-transform: none;text-decoration: none;top: 15px;left: 20%;}
+#header p#bloginfo {position: absolute;margin: 0;padding: 0;font-size:17px ;text-transform: none;color: #000;top: 20px;left:65%;width: 238px;height: 19px;}
+
+/* 顶部消息和换灯片 */
+#index_top { height:250px;  margin:0 8px 6px 0;width:100%;}
+#index_topl { width:320px; float:left;}
+#index_topr { margin-left:320px;}
+.itop_box{background:#fafafa;padding:15px;border:1px solid #e4e8e1;}
+.top_news{margin-bottom:5px;}
+.top_news p{color:#333333;}
+.sidelist li { background:url(../../../images/other/arrow.gif) 8px 7px no-repeat; height:24px; overflow:hidden; padding-left:25px; line-height:190%;}
+.sidelist li span { float:right; color:#569602;}
+.sidelist li a:link,.sidelist li a:visited{text-decoration:underline;}
+.sidelist li a:hover{text-decoration:none;}
+
+/* 导航条 */
+.menu {font-size:14px;width:100%;padding:0px;height:30px;}
+.menu ul {float: left;list-style: none; padding:5px 0 3px 18%;border:1px solid #1c4170;width:100%;background:#1b5790;height:30px;}
+.menu ul li {float: left;display: inline;}
+.menu ul li a {float: left;display: block;padding: 4px 15px;text-decoration: none;color: #fff;}
+.menu ul li a:hover {background:#224879;color: #ccc;}
+.menu ul li#current a{color: #000;background:#7aa13d;}
+.menu ul li#current a:hover {color: #000;background:#d2f59c;overflow:hidden;}
+
+/* 当前位置导航条 */
+.place{
+  margin:5px 0 15px auto;
+   background:#e5ecf3;
+   border:2px solid #f1f7fd;
+   padding:9px 20px;
+   color:#000;
+}
+
+/* 首页图文 */
+.index_pic { margin:0 8px 6px 0;}
+.index_pic h4 { background:#e5ecf3;height:30px;margin-bottom:30px;padding-top:10px;padding-left:20px;}
+.index_pic ul { height:130px; border:1px solid #eff1ee; padding:15px 0px 10px 6px; background:#fff;}
+.index_pic ul li { width:145px; height:130px; overflow:hidden; float:left; margin-left:10px; display:inline;}
+.index_pic ul li img { display:block; border:1px solid #aaa;}
+.index_pic ul li a { display:block; text-align:center;}
+.index_pic ul li a:hover { text-decoration:none;}
+
+/* 分类列表 */
+.index_box { width:335px; float:left; margin:0 8px 20px 0;padding:0}
+.index_box h4 {  background:#e5ecf3;height:30px;margin-bottom:30px;padding-top:10px;}
+.index_box h4 span { text-align:left; font-size:16px;}
+.index_box h4 span a { color:#000;}
+.index_box ul { border:1px solid #eff1ee; background:#fafafa;}
+.index_box ul li{ }
+.box2 { height:270px;margin:0;padding:0;}
+.box2 li { background:url(../../../images/other/arrow.gif) 8px 7px no-repeat; overflow:hidden; padding-left:20px; line-height:190%;}
+.box2 li span { float:right; color:#393;}
+
+
+/* 日志主体 *\
+\*==========*/
+#main {float: left;width: 695px;padding: 0; margin:0;display: inline;background: #ffffff;}
+#main h2 {margin-top: 10px;color: #333; padding: 5px 0px;border-bottom: 1px solid #EFF0F1;background:#FFF;	text-transform: none;}
+#main h2 a {background: none;color: #004499;text-decoration: none; font-size:20px;}
+#main h2 a:hover {text-decoration:underline;}
+#main h2 img{border:none;margin:0;padding:0}
+#main .bloger{color: #999999;}
+#main .edit{float:right;}
+#main .post{font-size:15px;}
+#main table{background:#fbfdfe;border:1px solid #e4eff5;}
+#main .table-header{background:#e0f2fc;}
+#main .table-entry  a:link,#main .table-entry  a:visited{color:#000;}
+#main .table-entry tr {border:1px solid red;}
+
+/**　导航条,全站公用 */
+#pagenav {
+    clear:both;
+    padding: 3px;
+	margin: 20px;
+	text-align: center
+}
+#pagenav a {
+    padding:1px 4px;
+	margin: 1px;
+    border: #e5edf2 1px solid; 
+	color: #767575; 
+	text-decoration: none
+}
+#pagenav a:hover { 
+    border: 1px solid #accbde;
+	color: #326a93;	
+	background-color: #eef8fe;
+}
+#pagenav span.current {
+    padding:1px 4px;
+    border: #e5edf2 1px solid; 
+    font-weight: bold; 
+	margin: 1px; 
+	color: #333333; 
+	background-color: #e5edf2
+}
+#pagenav span.infor{
+    padding:1px 4px;
+    border: #e5edf2 1px solid; 
+	margin: 1px; 
+	color: #ccc;
+}
+
+/** end */
+.post-footer {background-color: #f7f8fa;padding: 5px; margin: 20px 10px 10px 10px;border: 1px solid #eff1ee;font-size: 12px;}
+.post-footer p(font-size:12px;);
+.post-footer .comments {padding-left: 20px; margin: 0 10px 0 5px;}
+.post-footer .readmore {clear:both;padding-left: 20px; margin: 0 10px 0 5px;}
+
+/** 评论 */
+ol.comment-list, ol.comment-list ol {margin: 0;list-style: none;}
+ol.comment-list ol {padding-top: 10px;}
+ol.comment-list li {margin: 0;padding-bottom: 10px;}
+ol.comment-list li {padding: 10px 15px;margin-top: 10px;border: 1px solid #abd0ec;background: #f7fbff;overflow: hidden;}
+/*ol.comment-list li.comment-level-odd {background: #f4603d;}*/
+ol.comment-list li.comment-level-even {background: #fff;}
+ol.comment-list li.comment-by-author {border: 1px solid #eeeeff;}
+ol.comment-list li .comment-reply {text-align: right;}
+ol.comment-list li .comment-reply a {font-size: 11px;border: none;color: #aaa;}
+ol.comment-list li .comment-reply a:hover {color: #444;}
+ol.comment-list li .comment-block {text-align: left;}
+ol.comment-list li .comment-block a {font-size: 11px;border: none;color: #569602;}
+ol.comment-list li .comment-block a:hover {color: #000;}
+.comment-meta {padding-bottom: 8px;/*border-bottom: 1px dashed #eee;*/color: #999;font-size: 11px;}
+.comment-ip {font-style: normal;color:red;}
+.comment-author {display: block;font-size: 15px;color: #444;}
+.comment-author cite.fn {font-style: normal;}
+.comment-body {overflow: hidden;}
+img.avatar {/*display: none;*/float: left;margin: 6px 10px 0 0;}
+.respond {margin-top: 20px;}
+ol.comment-list li .respond {border-top: 1px solid #ddd;padding-top: 10px;}
+#comment_form {padding-right: 8px;}
+.respond .cancel-comment-reply {float: right;font-size: 11px;}
+.respond .cancel-comment-reply a {border: none;color: #aaa;}
+.respond .cancel-comment-reply a:hover {color: #444;}
+
+/* 其它 *\
+\*=======*/	
+.filedown{background:url("../../../images/other/zip.gif") no-repeat top left;padding-left:20px;}
+.otherul,.f_record,show_userinfo,f_usergrouppre{list-style:none;}
+.otherul li,.f_record li,.show_userinfo li,.f_usergrouppre li,.cmsnewlog li{list-style: url("../../../images/other/arrow.gif") inside circle;line-height:1.8em;}
+.otherul li a,.f_record li a,.show_userinfo li a,.f_usergrouppre li a,.cmsnewlog li a{text-decoration:none;}
+.otherul li a:hover,.f_record li a:hover,.show_userinfo li a:hover,.f_usergrouppre li a:hover,.cmsnewlog li a:hover{color:#000000;text-decoration:underline;}
+.mp3_title{color:purple;font-size:16px;}
+.mp3_content{border:1px solid #ccc;margin:20px;}
+.addupload{ color:#fff; padding:5px; background:#e7e7e7;text-align:center;width:30%;}
+.addupload a{ color:#252525; } 
+.blog_notice{background:#f3f3f3 url('../../../images/other/notice.gif') no-repeat 3px 3px;height:20px;overflow:hidden;padding:5px 0px 2px 30px;width:auto;margin-bottom:10px;border-top:1px solid #dfdfdf;border-bottom:1px solid #dfdfdf;}
+
+.f_tagcloud a{ text-decoration:none; }
+/*衔接模板*/
+.f_textlink {margin:30px 0 50px 10px;}
+.f_link textarea{background: #fff;border: 1px solid #ccc;font: 13px/1.5 lucida sans unicode, lucida grande, lucida, arial, sans-serif;padding: 3px;margin-bottom: 10px;width: 95%;height: 80px;overflow: auto;
+}
+.f_textlink li{float: left;width: 150px;height: 20px;list-style: none;}
+.f_textlink h4,.f_logolink h4{font-size: 13px;margin: 10px 0;padding-left: 5px;border-left: 5px solid #DDD;}
+/* 侧边栏 *\
+\*==========*/	
+#sidebar {float: right;width: 250px;padding: 0; margin:0; }	
+#sidebar .sidebox{background:#fff;margin-bottom:15px;}
+.sidebox .side_box_content{border-left:1px solid #eff1ee;border-bottom:1px solid #eff1ee;border-right:1px solid #eff1ee;}
+#sidebar h3 {padding: 0px 10px;background:url(images/sidebox_bg.png) repeat-x;font-size:14px;color: #000000;line-height:30px;border-bottom:1px solid #eff1ee;}
+#sidebar ul {list-style: none;text-align: left; padding: 0;margin:0;text-decoration: none;}
+#sidebar ul li {list-style: none;background: url('images/li.gif') no-repeat 15px 8px;padding:4px 0 4px 28px;color: #88898b;}
+#sidebar ul li a {text-decoration: none;background-image: none;color: #0f5cc3;	}
+#sidebar ul li a:hover {text-decoration: underline;}
+
+/**日历 */
+.calendarhead{width:90%;height:30px;text-align:center;}
+.week {background:#f5f9fb;border-bottom:1px solid #aaa;text-align:center;padding:2px;color:#049;}
+.mon {background:#f5f9fb;border-bottom:1px solid #aaa;text-align:center;padding:2px;text-align:center;color:red;}
+.sun {background:#f5f9fb;border-bottom:1px solid #aaa;text-align:center;padding:2px;text-align:center;color:green;}
+.calendar{width:90%;text-align:center;}
+.day{background:#fff url('../../../images/other/bg_cal_today.gif') no-repeat 3px 3px; }
+
+/** 衔接 */
+#frendlink { border:1px solid #dadada; margin:0 8px 6px 8px; padding:8px 10px; color:#666; line-height:2;}
+#frendlink a { color:#666; margin:0 6px;}
+
+/* 底部 *\
+\*=======*/	
+#footer {
+    padding:15px 0 20px 0;
+    clear:both;
+    width:100%;
+    margin-top:20px;
+    background:#edf8ff;
+    border-bottom:5px solid #256190;
+    border-top:1px solid #256190;
+    color:#454343;
+    text-align:center;
+}
+#footer a{color:#023c61}
+#footer a:hover{text-decoration:underline}
+
+/* 消息框css样式 */
+.ajaxdiv {border:1px solid #386792;background:#edf2f8;position:absolute;padding:8px;}
+.ajaxdiv H2 {color:#000;font-size:12px;line-height:24px;margin:0;}
+.ajaxdiv H2 a {font-weight:400;float:right;}
+.ajaxdiv H2 span{color:red;}
+.ajaxdiv ul{ list-style:none; }
+/* tag ajax消息框 */
+.tagshow{ color:#03c3fa;background:#f4fbfd;padding:3px;}
+/* 正在加载消息提示 */
+.ajaxmsg {right:0;background:red;color:#fff;line-height:20px;position:fixed;top:0;padding:0 20px;}

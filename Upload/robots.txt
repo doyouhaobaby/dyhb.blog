@@ -1,0 +1,10 @@
+#
+# robots.txt防止管理页面被百度，google搜到
+#
+
+User-agent: *
+Disallow: /admin/
+Disallow: /includes/
+Disallow: /class.lib/
+Disallow: /images/
+Disallow: /base.func/
